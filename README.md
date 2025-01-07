@@ -1,2 +1,1 @@
-# community
-Meetups, workshops and conference materials
+# Community Meetups, workshops, webinars, and conference talk materials 
