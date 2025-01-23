@@ -19,5 +19,5 @@ Here you can find the slides from the meetup presentation and the various demo r
 - create a Kafka topic
 - configure Kafka monitoring with Prometheus and Grafana
 - run a test producer and consumer
-- trigger Kafka cluster re-balance with Cruse Control
+- trigger Kafka cluster re-balance with Cruise Control
 
