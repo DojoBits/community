@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: kafka-producer
+spec:
+  selector:
+    matchLabels:
+      app: producer
+  template:
+    metadata:
+      labels:
+        app: producer
+    spec:
+      containers:
+      - name: producer
+        image: quay.io/strimzi/kafka:0.45.0-kafka-3.9.0
+        command:
+        - /bin/bash
+        - -c
+        - while true; do echo "$(date +%H:%M:%S) Hello Kafka Strimzi" | bin/kafka-console-producer.sh --bootstrap-server meet-kafka-cluster-kafka-brokers.meet-kafka-cluster.svc:9092 --topic demo-topic; sleep 5; done

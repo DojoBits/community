@@ -1,0 +1,8 @@
+apiVersion: kafka.strimzi.io/v1beta2
+kind: KafkaRebalance
+metadata:
+  name: meet-cluster-rebalance
+  labels:
+    strimzi.io/cluster: meet-kafka-cluster
+# Use the default Cruise Control optimization goals
+spec: {}
