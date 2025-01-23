@@ -4,7 +4,7 @@
     <img src="images/cncf-pe-bg-meetup-jan.avif" alt="the banner of the CNCF and Platform Engineering January Meetup" width="600">
   </picture>
 
- <h2 align="center">Real-Time Data Processing with Apache Kafka:<>
+ <h2 align="center">Real-Time Data Processing with Apache Kafka:</h2>
  <h3 align="center">A Kubernetes-Native Approach</h1>
 </div>
 <br />
