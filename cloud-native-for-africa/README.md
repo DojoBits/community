@@ -4,8 +4,8 @@
 </div>
 
 
-This presentation covers a few subjects from the KCNA curriculum. It was created
-as contribution from DojoBits to the CNCF, Linux Foundation and Andela initiative
+This presentation covers a few subjects from the KCNA curriculum. It was created as
+a contribution from DojoBits to the CNCF, Linux Foundation, and Andela initiative
 to train African technologists in cloud native basics.
 
 # Agenda
